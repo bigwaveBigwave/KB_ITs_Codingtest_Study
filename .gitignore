@@ -1,0 +1,21 @@
+# Java
+*.class
+*.jar
+
+# Python
+__pycache__/
+*.pyc
+
+# C++
+*.exe
+*.out
+*.o
+
+# Node.js
+node_modules/
+.npm
+
+# IDEs
+.idea/
+.vscode/
+.DS_Store
