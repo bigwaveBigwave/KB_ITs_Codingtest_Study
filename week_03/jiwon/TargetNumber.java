@@ -1,11 +1,7 @@
 package week_03.jiwon;
 
 public class TargetNumber {
-    /*
-각 원소마다 +/- 부호 -> 2가지 경우
-모든 경우의 수 확인 -> 합이 target이 되는 경우 count++
-=> dfs 
-*/
+
     static int count = 0;    
 
     public int targetNumber(int[] numbers, int target) {
