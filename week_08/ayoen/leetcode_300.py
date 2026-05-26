@@ -3,7 +3,7 @@ class Solution:
         if not nums:
             return 0
 
-        # 모든 위치에서의 최소 LIS 길이는 1입니다 (자기 자신)
+        # 모든 위치에서의 최소 LIS 길이는 1
         dp = [1] * len(nums)
 
         for i in range(len(nums)):
@@ -12,5 +12,5 @@ class Solution:
                 if nums[j] < nums[i]:
                     dp[i] = max(dp[i], dp[j] + 1)
 
-        # 전체 dp 배열 중 가장 큰 값이 정답입니다.
+        # 전체 dp 배열 중 가장 큰 값이 정답
         return max(dp)
